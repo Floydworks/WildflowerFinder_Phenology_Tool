@@ -1,0 +1,74 @@
+Phenology model for Adelinia grande (Pacific Houndstongue)
+
+Model: Gradient Boosting Classifier
+
+
+Parameters:
+ccp_alpha=0.0
+criterion='friedman_mse'
+init=None
+learning_rate=0.1
+loss='log_loss'
+max_depth=3
+max_features=None, max_leaf_nodes=None
+min_impurity_decrease=0.0
+min_samples_leaf=1
+min_samples_split=2
+min_weight_fraction_leaf=0.0
+n_estimators=100
+n_iter_no_change=None,
+random_state=None
+subsample=1.0
+tol=0.0001,
+validation_fraction=0.1
+verbose=0
+warm_start=False)
+
+Number of features = 17
+dropped features = 'prec_daily', 'MonSumPrec'
+
+Model performance on train/test dataset (observations: Tilden Regional Park, Briones Regional Park, Sunol Regional Wilderness, 
+Garin Regional Park, Pleasanton Ridge Regional Park, Anthony Chabot Regional Park, Joseph D Grant County Park)
+
+Performance metrics:
+Accuracy=0.846
+Precision = 2.833
+Recall = 1.667
+
+Adelinia grande: blooming confusion matrix 
+[[ 1  2  0]
+ [ 0 30  0]
+ [ 0  4  2]]
+
+Feature importance:
+15: MaxDayLen_prior14 =  100.00000
+16: MaxDayLen_prior30 =  97.55506
+9: max_temp =            74.84827
+14: day_length = 	 72.46446
+1: WkSumPrec = 	 	 36.81649
+11: AvgMaxTemp_prior14 = 24.30209
+3: sum_prec_prior30 = 	 19.46673
+13: AvgMinTemp_prior30 = 16.82348
+5: MinTemp_prior14 = 	 14.26891
+8: AvgMaxTemp_prior30 =  13.43706
+0: prec_cum_WY = 	 11.20892
+2: sum_prec_prior14 = 	 11.20892
+12: MaxTemp_prior30 = 	 8.77892
+10: MaxTemp_prior14 =  	 4.67591
+6: AvgMinTemp_prior14 =  4.62183
+4: minTemp = 		 1.94288
+7: MinTemp_prior30 = 	 0.26387
+
+
+Model performance on test dataset (Mt. Diablo observations)
+
+Accuracy=0.963
+Precision = 2.958
+Recall = 2.575
+
+Adelinia grande: blooming confusion matrix 
+[[ 11   3   0]
+ [  0 158   0]
+ [  0   4  15]]
+
+
