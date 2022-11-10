@@ -1,4 +1,5 @@
 These are files produced in project notebooks that are used in other notebooks and referenced in guidance materials
 
 FILE NAME                               DESCRIPTION
-df_wildflowers_2017_2022.csv            dataframe of iNaturalist observations, 8 parks, complete water years 2018 - 2022
+df_wildflowers_2017_2022.csv            cleaned data frame of iNaturalist observations, 8 parks, complete water years 2018 - 2022
+updated_inat_data.csv                   raw data frame of all iNaturalist observations water years 2018 - 2022
