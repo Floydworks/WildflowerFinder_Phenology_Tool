@@ -1,6 +1,7 @@
 These are files produced in project notebooks that are used in other notebooks and referenced in guidance materials
 
 FILE NAME                               DESCRIPTION
+climate_GHCN_data.csv                   NOAA GHCN daily temp, precipitation data compiled for eight parks through September 2022
 df_wildflowers_2017_2022.csv            cleaned data frame of iNaturalist observations, 8 parks, complete water years 2018 - 2022
 updated_inat_data.csv                   raw data frame of all iNaturalist observations water years 2018 - 2022
 wy_week_nums.csv                        csv of days of year and wateryear week assignment for mapping
