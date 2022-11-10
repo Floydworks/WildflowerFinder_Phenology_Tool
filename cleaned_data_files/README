@@ -3,3 +3,4 @@ These are files produced in project notebooks that are used in other notebooks a
 FILE NAME                               DESCRIPTION
 df_wildflowers_2017_2022.csv            cleaned data frame of iNaturalist observations, 8 parks, complete water years 2018 - 2022
 updated_inat_data.csv                   raw data frame of all iNaturalist observations water years 2018 - 2022
+wy_week_nums.csv                        csv of days of year and wateryear week assignment for mapping
